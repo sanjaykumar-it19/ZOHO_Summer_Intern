@@ -40,7 +40,7 @@ public class SendEmail extends HttpServlet {
         String msg = (String)session.getAttribute("mesg");
         // From username and password
         final String username = "sanjaykumar.it19@bitsathy.ac.in";//your email id
-        final String password = "Googleuser@2002";// your password
+        final String password = "########";// your password
         
         Properties props = new Properties();
         props.put("mail.smtp.auth", true);
